@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="dandd.Views.RaceView"
-             Title="RacesView">
+             Title="ClassView">
     <Frame BorderColor="Gray"
        CornerRadius="5"
        Padding="8"   
            >
-       
+
         <StackLayout>
 
-            <Label Text="Races"   FontSize="45" HorizontalTextAlignment="Center"/>
+            
 
-          
             <Label Text=""
            FontSize="16"
            FontAttributes="Bold" />
@@ -31,17 +31,22 @@
                         Aspect="AspectFill"
                         Margin="-40"
                         HeightRequest="100"
-                        WidthRequest="100" />  
+                        WidthRequest="100" 
+                       
+                      
+                    />
                
+
+
             </Frame>
-            <Label Text="Race Name"   
+            <Label Text="Class Name"   
                    FontSize="16"
-                   FontAttributes="Bold"
+                   FontAttributes="Bold"   
                    TextColor="blue"/>
 
 
 
-        
+
 
 
             <Label Text=""
@@ -62,18 +67,21 @@
                         Aspect="AspectFill"
                         Margin="-40"
                         HeightRequest="100"
-                        WidthRequest="100" />
+                        WidthRequest="100" 
+                       
+                      
+                    />
+
+
 
             </Frame>
-            <Label Text="Race Name"   
+            <Label Text="Class Name"   
                    FontSize="16"
-                   FontAttributes="Bold"
+                   FontAttributes="Bold"   
                    TextColor="blue"/>
 
 
 
-
-          
 
 
             <Label Text=""
@@ -94,20 +102,20 @@
                         Aspect="AspectFill"
                         Margin="-40"
                         HeightRequest="100"
-                        WidthRequest="100" />
+                        WidthRequest="100" 
+                       
+                      
+                    />
+
+
 
             </Frame>
-            <Label Text="Race Name"   
+            <Label Text="Class Name"   
                    FontSize="16"
-                   FontAttributes="Bold"
+                   FontAttributes="Bold"   
                    TextColor="blue"/>
 
 
-
-
-
-
-        
 
 
             <Label Text=""
@@ -128,16 +136,21 @@
                         Aspect="AspectFill"
                         Margin="-40"
                         HeightRequest="100"
-                        WidthRequest="100" />
+                        WidthRequest="100" 
+                       
+                      
+                    />
+
+
 
             </Frame>
-            <Label Text="Race Name"   
+            <Label Text="Class Name"   
                    FontSize="16"
-                   FontAttributes="Bold"  
+                   FontAttributes="Bold"   
                    TextColor="blue"/>
 
+            
 
-         
 
             <Frame Margin="10"
                    BorderColor="Black"
@@ -146,15 +159,16 @@
                    WidthRequest="60"
                    IsClippedToBounds="True"
                    HorizontalOptions="Start"
-                   VerticalOptions="Fill"
+                   VerticalOptions="Center"
                   
                    >
                 <Image Source="elf.png"
                         Aspect="AspectFill"
                         Margin="-40"
                         HeightRequest="100"
-                        WidthRequest="100" /> 
-    </Frame>
+                        WidthRequest="100" 
+                       />
+            </Frame>
 
             <Frame Margin="10"
                    BorderColor="Black"
@@ -192,15 +206,25 @@
                         WidthRequest="100" />
             </Frame>
 
+       
+            
+
         </StackLayout>
 
-  
+
+
+
+
+       
+           
+            
+
 
 
 
 
     </Frame>
-    
+
 
 
 </ContentPage>
